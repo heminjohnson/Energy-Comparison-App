@@ -1,0 +1,19 @@
+{
+  "name": "energy-comparison-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heminjohnson/Energy-Comparison-App.git"
+  },
+  "author": "Hemin Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heminjohnson/Energy-Comparison-App/issues"
+  },
+  "homepage": "https://github.com/heminjohnson/Energy-Comparison-App#readme"
+}
