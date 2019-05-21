@@ -53,3 +53,30 @@ test('should return 404 error if the product with the right annual cost is not p
     }
   )
 })
+
+test('should return the comparison of the product based on the consumption', async () => {
+  const response = await request(app)
+    .get('/products/3500')
+    .expect(200)
+
+  expect(response.body).toEqual({
+    "productA": [
+      {
+        "annualCosts": 830,
+        "_id": expect.any(String),
+        "tariffName": "basic electricity tariff",
+        "type": "A",
+        "__v": 0
+      }
+    ],
+    "productB": [
+      {
+        "annualCosts": 800,
+        "_id": expect.any(String),
+        "tariffName": "packaged tariff",
+        "type": "B",
+        "__v": 0
+      }
+    ]
+  })
+})
