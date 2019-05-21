@@ -18,5 +18,9 @@
   "homepage": "https://github.com/heminjohnson/Energy-Comparison-App#readme",
   "devDependencies": {
     "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "mongoose": "^5.5.10",
+    "validator": "^10.11.0"
   }
 }
