@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/heminjohnson/Energy-Comparison-App/issues"
   },
-  "homepage": "https://github.com/heminjohnson/Energy-Comparison-App#readme"
+  "homepage": "https://github.com/heminjohnson/Energy-Comparison-App#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
 }
