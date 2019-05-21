@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm index.js",
+    "start-dev": "nodemon index.js",
+    "test": "jest",
+    "test-dev": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/heminjohnson/Energy-Comparison-App/issues"
   },
-  "homepage": "https://github.com/heminjohnson/Energy-Comparison-App#readme"
+  "homepage": "https://github.com/heminjohnson/Energy-Comparison-App#readme",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "mongoose": "^5.5.10",
+    "validator": "^10.11.0"
+  }
 }
