@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/heminjohnson/Energy-Comparison-App#readme",
   "devDependencies": {
-    "nodemon": "^1.19.0"
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0",
+    "supertest": "^4.0.2"
   },
   "dependencies": {
     "express": "^4.17.0",
